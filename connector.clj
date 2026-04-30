@@ -326,15 +326,3 @@
     (needs TASKS :prop "task_id")
   )
 )
-
-(entity TASK_EMAILS
-
-  (fields
-    tasks_id 
-    email_id 
-  )
-
-  (relate
-    (needs TASKS :prop "task_id")
-  )
-)
