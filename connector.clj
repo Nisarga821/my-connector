@@ -35,10 +35,7 @@
     (when :status 400 :action fail)                   
     (when :status 401 :action refresh)                
     (when :status 403 :action fail)                   
-    (when :status 404 :action skip)                   
-    (when :status 429 :action rate-limit)             
-    (when :status 500 :action retry)                  
-    (when :status 503 :action retry)                  
+                    
   )
   (format/json)                                       
 )
